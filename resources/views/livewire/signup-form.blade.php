@@ -16,6 +16,12 @@
             </div>
 
             <div class="mb-4">
+                <label class="block text-gray-700 font-semibold">Mobile</label>
+                <input type="number" wire:model="mobile"
+                    class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:ring-green-300">
+            </div>
+
+            <div class="mb-4">
                 <label class="block text-gray-700 font-semibold">Password</label>
                 <input type="password" wire:model="password"
                     class="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring focus:ring-green-300">
