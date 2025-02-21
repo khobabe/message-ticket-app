@@ -11,7 +11,7 @@
 <nav class="flex justify-between bg-slate-800 text-white px-5 py-3 capitalize">
     <h2 class="">ticket message app</h2>
     <ul class="flex gap-3">
-        <li><a href="">home</a></li>
+        <li><a href="{{ route('home') }}">home</a></li>
         <li><a href="">support</a></li>
         <li><a href="">admin</a></li>
     </ul>

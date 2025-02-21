@@ -1,5 +1,5 @@
 <div class="min-h-screen bg-sky-100 flex flex-col">
-    <!-- Header -->
+    {{-- sub-header --}}
     <header class="bg-sky-500 text-white text-center py-4 text-xl font-bold">
         Ticket Message App
     </header>
@@ -11,5 +11,7 @@
             class="bg-sky-600 text-white px-6 py-2 rounded-md hover:bg-sky-700 transition">
             Generate a Ticket
         </a>
+
+        <button wire:click="handleClick">click here</button>
     </main>
 </div>
